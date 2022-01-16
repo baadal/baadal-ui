@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import 'starter-ui/dist/styles/index.css';
+import '@baadal-sdk/baadal-ui/dist/styles/index.css';
 import './index.css';
 import App from './App';
 

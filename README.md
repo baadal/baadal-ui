@@ -1,14 +1,19 @@
-# starter-ui
-Starter kit for UI components library
+# baadal-ui
+An opinionated UI components library
 
-# References
-* https://frontend.blog/build-your-own-flexible-component-library-using-tsdx-typescript-tailwind-css-headless-ui/
-* https://www.youtube.com/watch?v=qi-do2A80hc
-* https://www.youtube.com/watch?v=a31BUlx-EXc
-* https://dev.to/lpbayliss/how-and-why-i-use-emotion-with-tailwind-4elj
+## Install
 
-# Links
-* https://tailwindcss.com/
-* https://tailwindui.com/#components
-* https://www.framer.com/motion/
-* https://undraw.co/
+```
+npm i @baadal-sdk/baadal-ui
+```
+
+[NPM package](https://www.npmjs.com/package/@baadal-sdk/baadal-ui)
+
+## Demo
+
+You can start a local demo server using the following commands:
+```
+git clone https://github.com/baadal/baadal-ui.git
+cd baadal-ui/test/01
+npm start
+```

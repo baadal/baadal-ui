@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button } from 'starter-ui';
+import { Button } from '@baadal-sdk/baadal-ui';
 import './App.css';
 
 function App() {
