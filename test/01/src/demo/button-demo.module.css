@@ -1,0 +1,32 @@
+.container {
+  max-width: 800px;
+  margin: 50px auto;
+}
+
+.pageTitle {
+  font-size: 200%;
+  font-weight: bold;
+  color: deepskyblue;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.section {
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.sectionTitle {
+  font-size: 120%;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.sectionBody {
+  display: flex;
+  gap: 20px;
+}
+
+.codeSnippet {
+  margin-top: 15px;
+}

@@ -13,6 +13,15 @@
   color: white;
 }
 
+.appTitle {
+  font-size: 120%;
+  font-weight: bold;
+}
+
 .appLink {
   color: #61dafb;
+}
+
+.externalLink {
+  color: fuchsia;
 }

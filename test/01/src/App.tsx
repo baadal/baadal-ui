@@ -1,14 +1,15 @@
 import React from 'react';
-import { Button } from '@baadal-sdk/baadal-ui';
-import './App.css';
+import { Routes, Route } from "react-router-dom";
+import Home from './Home';
+import ButtonDemo from './demo/button-demo';
 
 function App() {
   return (
-    <div className="app">
-      <header className="appHeader">
-        <h3>List of Components</h3>
-        <Button>My Button</Button>
-      </header>
+    <div>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="button-demo" element={<ButtonDemo />} />
+      </Routes>
     </div>
   );
 }
