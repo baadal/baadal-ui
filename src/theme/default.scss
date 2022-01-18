@@ -1,0 +1,244 @@
+:root {
+  --primary-color: rgb(147, 51, 234);
+  --primary-color-hover: rgb(126, 34, 206);
+  --primary-color-dim: rgb(250, 245, 255);
+  --primary-color-bg: var(--primary-color);
+  --primary-color-border: var(--primary-color);
+  --primary-color-text: var(--primary-color);
+
+  --secondary-color: rgb(2, 132, 199);
+  --secondary-color-hover: rgb(3, 105, 161);
+  --secondary-color-dim: rgb(240, 249, 255);
+  --secondary-color-bg: var(--secondary-color);
+  --secondary-color-border: var(--secondary-color);
+  --secondary-color-text: var(--secondary-color);
+
+  --success-color: rgb(22, 163, 74);
+  --success-color-hover: rgb(21, 128, 61);
+  --success-color-dim: rgb(240, 253, 244);
+  --success-color-bg: var(--success-color);
+  --success-color-border: var(--success-color);
+  --success-color-text: var(--success-color);
+
+  --error-color: rgb(220, 38, 38);
+  --error-color-hover: rgb(185, 28, 28);
+  --error-color-dim: rgb(254, 242, 242);
+  --error-color-bg: var(--error-color);
+  --error-color-border: var(--error-color);
+  --error-color-text: var(--error-color);
+
+  --warn-color: rgb(234, 179, 8);
+  --warn-color-hover: rgb(202, 138, 4);
+  --warn-color-dim: rgb(254, 252, 232);
+  --warn-color-bg: var(--warn-color);
+  --warn-color-border: var(--warn-color);
+  --warn-color-text: var(--warn-color);
+
+  --info-color: rgb(13, 148, 136);
+  --info-color-hover: rgb(15, 118, 110);
+  --info-color-dim: rgb(240, 253, 250);
+  --info-color-bg: var(--info-color);
+  --info-color-border: var(--info-color);
+  --info-color-text: var(--info-color);
+
+  --dark-color: rgb(71, 85, 105);
+  --dark-color-hover: rgb(51, 65, 85);
+  --dark-color-dim: rgb(148, 163, 184, 0.1);
+  --dark-color-bg: var(--dark-color);
+  --dark-color-border: var(--dark-color);
+  --dark-color-text: var(--dark-color);
+
+  --light-color: rgb(209, 213, 219);
+  --light-color-hover: rgb(229, 231, 235);
+  --light-color-dim: rgb(249, 250, 251, 0.1);
+  --light-color-bg: rgb(243, 244, 246);
+  --light-color-border: var(--light-color);
+  --light-color-text: var(--light-color);
+
+  --contrast-color-light: rgb(243, 244, 246);
+  --contrast-color-dark: rgb(30, 41, 59);
+
+  --transition-duration: 150ms;
+}
+
+.primary-border {
+  // @apply border-purple-600;
+  border-color: var(--primary-color-border);
+}
+.primary-text {
+  // @apply text-purple-600;
+  color: var(--primary-color-text);
+}
+.primary-bg {
+  // @apply bg-purple-600;
+  background-color: var(--primary-color-bg);
+}
+.primary-hover:hover {
+  // @apply hover:bg-purple-700;
+  background-color: var(--primary-color-hover);
+}
+.primary-hover-dim:hover {
+  // @apply hover:bg-purple-50;
+  background-color: var(--primary-color-dim);
+}
+
+.secondary-border {
+  // @apply border-sky-600;
+  border-color: var(--secondary-color-border);
+}
+.secondary-text {
+  // @apply text-sky-600;
+  color: var(--secondary-color-text);
+}
+.secondary-bg {
+  // @apply bg-sky-600;
+  background-color: var(--secondary-color-bg);
+}
+.secondary-hover:hover {
+  // @apply hover:bg-sky-700;
+  background-color: var(--secondary-color-hover);
+}
+.secondary-hover-dim:hover {
+  // @apply hover:bg-sky-50;
+  background-color: var(--secondary-color-dim);
+}
+
+.success-border {
+  // @apply border-green-600;
+  border-color: var(--success-color-border);
+}
+.success-text {
+  // @apply text-green-600;
+  color: var(--success-color-text);
+}
+.success-bg {
+  // @apply bg-green-600;
+  background-color: var(--success-color-bg);
+}
+.success-hover:hover {
+  // @apply hover:bg-green-700;
+  background-color: var(--success-color-hover);
+}
+.success-hover-dim:hover {
+  // @apply hover:bg-green-50;
+  background-color: var(--success-color-dim);
+}
+
+.error-border {
+  // @apply border-red-600;
+  border-color: var(--error-color-border);
+}
+.error-text {
+  // @apply text-red-600;
+  color: var(--error-color-text);
+}
+.error-bg {
+  // @apply bg-red-600;
+  background-color: var(--error-color-bg);
+}
+.error-hover:hover {
+  // @apply hover:bg-red-700;
+  background-color: var(--error-color-hover);
+}
+.error-hover-dim:hover {
+  // @apply hover:bg-red-50;
+  background-color: var(--error-color-dim);
+}
+
+.warn-border {
+  // @apply border-yellow-500;
+  border-color: var(--warn-color-border);
+}
+.warn-text {
+  // @apply text-yellow-500;
+  color: var(--warn-color-text);
+}
+.warn-bg {
+  // @apply bg-yellow-500;
+  background-color: var(--warn-color-bg);
+}
+.warn-hover:hover {
+  // @apply hover:bg-yellow-600;
+  background-color: var(--warn-color-hover);
+}
+.warn-hover-dim:hover {
+  // @apply hover:bg-yellow-50;
+  background-color: var(--warn-color-dim);
+}
+
+.info-border {
+  // @apply border-teal-600;
+  border-color: var(--info-color-border);
+}
+.info-text {
+  // @apply text-teal-600;
+  color: var(--info-color-text);
+}
+.info-bg {
+  // @apply bg-teal-600;
+  background-color: var(--info-color-bg);
+}
+.info-hover:hover {
+  // @apply hover:bg-teal-700;
+  background-color: var(--info-color-hover);
+}
+.info-hover-dim:hover {
+  // @apply hover:bg-teal-50;
+  background-color: var(--info-color-dim);
+}
+
+.dark-border {
+  // @apply border-slate-600;
+  border-color: var(--dark-color-border);
+}
+.dark-text {
+  // @apply text-slate-600;
+  color: var(--dark-color-text);
+}
+.dark-bg {
+  // @apply bg-slate-600;
+  background-color: var(--dark-color-bg);
+}
+.dark-hover:hover {
+  // @apply hover:bg-slate-700;
+  background-color: var(--dark-color-hover);
+}
+.dark-hover-dim:hover {
+  // @apply hover:bg-slate-400 opacity-10;
+  background-color: var(--dark-color-dim);
+}
+
+.light-border {
+  // @apply border-gray-300;
+  border-color: var(--light-color-border);
+}
+.light-text {
+  // @apply text-gray-300;
+  color: var(--light-color-text);
+}
+.light-bg {
+  // @apply bg-gray-100;
+  background-color: var(--light-color-bg);
+}
+.light-hover:hover {
+  // @apply hover:bg-gray-200;
+  background-color: var(--light-color-hover);
+}
+.light-hover-dim:hover {
+  // @apply hover:bg-gray-50 opacity-10;
+  background-color: var(--light-color-dim);
+}
+
+.contrast-light {
+  // @apply border-gray-100;
+  color: var(--contrast-color-light);
+}
+
+.contrast-dark {
+  // @apply text-slate-800;
+  color: var(--contrast-color-dark);
+}
+
+.transition-duration {
+  transition-duration: var(--transition-duration);
+}
