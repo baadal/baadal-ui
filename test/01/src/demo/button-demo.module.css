@@ -30,3 +30,27 @@
 .codeSnippet {
   margin-top: 15px;
 }
+
+.code {
+  font-family: "Courier New", Courier, monospace;
+  color: darkolivegreen;
+}
+
+.btnRoot {
+  background-image: linear-gradient(to right, #4ade80, #3b82f6);
+  border-color: transparent;
+  background-clip: padding-box;
+  border-radius: 0.42rem;
+}
+
+.btnRoot:hover {
+  background-image: linear-gradient(to right, #ec4899, #eab308);
+}
+
+.btnContent {
+  padding-left: 10px;
+}
+
+.btnIcon {
+  font-size: 100%;
+}
